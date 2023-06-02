@@ -15,7 +15,7 @@ final class FilterView: UITableViewHeaderFooterView {
     
     private lazy var sortButton: UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(systemName: "list.bull"), for: .normal)
+        button.setImage(UIImage(systemName: "list.bullet"), for: .normal)
         return button
     }()
     
@@ -51,7 +51,7 @@ final class FilterView: UITableViewHeaderFooterView {
         
         sortButton.snp.makeConstraints {
             $0.top.equalToSuperview()
-            $0.trailing.equalToSuperview()
+            $0.trailing.equalToSuperview().inset(12)
             $0.width.height.equalTo(28)
         }
         

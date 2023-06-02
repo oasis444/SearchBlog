@@ -118,10 +118,18 @@
 			children = (
 				336D75392A27991B00EA6E25 /* SearchBar.swift */,
 				336D753B2A28657A00EA6E25 /* FilterView.swift */,
+				337E39562A29841000435FB1 /* ListView */,
+			);
+			path = SubComponents;
+			sourceTree = "<group>";
+		};
+		337E39562A29841000435FB1 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
 				336D753D2A28747700EA6E25 /* BlogListView.swift */,
 				336D753F2A28748900EA6E25 /* BlogListCell.swift */,
 			);
-			path = SubComponents;
+			path = ListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

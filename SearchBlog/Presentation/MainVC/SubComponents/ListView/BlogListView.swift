@@ -13,7 +13,6 @@ final class BlogListView: UITableView {
     
     let disposeBag = DisposeBag()
     let headerView = FilterView(frame: CGRect(origin: .zero, size: CGSize(width: UIScreen.main.bounds.width, height: 50)))
-    //    let headerView = FilterView(frame: .zero)
     let cellData = PublishSubject<[BlogListCellData]>()
     
     override init(frame: CGRect, style: UITableView.Style) {
